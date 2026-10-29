@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FF Extreme Optimizer"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Автоматический игровой режим + Kill-Switch"
+            android:textColor="#AAAAAA"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartGameMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶ Запустить Game Mode Service"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.Material3.Button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopGameMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⏹ Остановить Game Mode"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Плавающий HUD"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показать HUD Overlay"
+            android:layout_marginBottom="12dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Скрыть HUD"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nВажно:\n• Дай Usage Access\n• Дай Overlay permission\n• Исключи из оптимизации батареи\n• Для анимаций и DPI нужен ADB grant WRITE_SECURE_SETTINGS"
+            android:textColor="#888888"
+            android:textSize="13sp"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

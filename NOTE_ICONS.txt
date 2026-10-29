@@ -1,0 +1,4 @@
+Иконки: в проекте есть adaptive-icon (XML).
+При первом открытии в Android Studio:
+Right-click res → New → Image Asset → создай нормальную иконку.
+Или просто собери — Android Studio часто подставляет дефолтную.
